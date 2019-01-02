@@ -19,6 +19,10 @@ chsh -s /usr/local/bin/zsh
 ln -s $PWD/zshrc ~/.zshrc
 source .zshrc
 
+### - gitの設定
+git config --global user.name "tonpurin"
+git config --global user.email "tonpurin2510@gmail.com"
+
 ### - vimの設定
 ln -s $PWD/vimrc ~/.vimrc
 
