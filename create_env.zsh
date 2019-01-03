@@ -32,3 +32,5 @@ ln -s $PWD/tmux.conf ~/.tmux.conf
 ### - pythonの設定
 # python3のminicondaインストール
 pyenv install miniconda3-latest
+# jupyterのテーマ
+ln -s $PWD/jupyter_custom ~/.jupyter/custom
