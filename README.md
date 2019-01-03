@@ -1,22 +1,24 @@
-# Macの環境構築用ファイル郡
+# Mac の環境構築用ファイル郡
 
-### 構築する環境
+## 構築する環境
+
 - Homebrew
-    - homebrewをインストール
-    - 必要なパッケージをインストール 
+  - homebrew をインストール
+  - 必要なパッケージをインストール
 - zsh
-    - preztoでzshのベース環境構築
-    - zshrcを作成 
+  - prezto で zsh のベース環境構築
+  - zshrc を作成
 - tmux
-    - tmux.conf作成 
+  - tmux.conf 作成
 - vim
-    - vimrc作成 
+  - vimrc 作成
 - python
-    - pyenvインストール
-    - miniconda3-latestをダウンロード
+  - pyenv インストール
+  - miniconda3-latest をダウンロード
+  - /.jupyter/custom/ 作成
 
-### 環境構築方法
+## 環境構築方法
 
-```
+```.zsh
 sudo /bin/zsh create_env.zsh
 ```
