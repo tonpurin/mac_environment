@@ -44,4 +44,7 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # http://qiita.com/suin/items/629372fd08ee9e9cf727
 export LC_ALL='ja_JP.UTF-8'
 
-tmux
+# tmuxを起動する
+if [ $SHLVL = 1 ]; then
+  tmux
+fi

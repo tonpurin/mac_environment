@@ -13,5 +13,5 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # homebrew-bundleのインストール
 brew tap Homebrew/bundle
 
-# Brewfileを実行
+# Brewfileを実行!
 brew bundle
