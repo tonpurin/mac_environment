@@ -22,6 +22,7 @@ source .zshrc
 ### - gitの設定
 git config --global user.name "tonpurin"
 git config --global user.email "tonpurin2510@gmail.com"
+git config --global core.editor 'vim -c "set fenc=utf-8"'
 
 ### - vimの設定
 ln -s $PWD/vimrc ~/.vimrc
