@@ -43,8 +43,3 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # 日本語入力に関する変数...matplotlibで必要
 # http://qiita.com/suin/items/629372fd08ee9e9cf727
 export LC_ALL='ja_JP.UTF-8'
-
-# tmuxを起動する
-if [ $SHLVL = 1 ]; then
-  tmux
-fi
